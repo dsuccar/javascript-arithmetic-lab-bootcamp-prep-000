@@ -3,6 +3,7 @@ b = Math.floor(Math.random() * 1000)
 
 var makeInt = parseInt()
 var preserveDecimal = parseFloat()
+
 function add(a, b) {
   return a += b;
 }
@@ -26,5 +27,5 @@ function makeInt(n){
   return parseInt(n, 10)
 }
 function preserveDecimal(n){
-  return preserveDecimal(n, 10)
+  return parseFloat(n, 10)
 }
