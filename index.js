@@ -1,7 +1,8 @@
 a = Math.floor(Math.random() * 1000)
 b = Math.floor(Math.random() * 1000)
 
-var makeInt = parseInt(0)
+var makeInt = parseInt()
+var preserveDecimal = parseFloat()
 function add(a, b) {
   return a += b;
 }
@@ -23,4 +24,7 @@ function dec(n){
 }
 function makeInt(n){
   return parseInt(n, 10)
+}
+function preserveDecimal(n){
+  return preserveDecimal(n, 10)
 }
