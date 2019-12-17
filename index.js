@@ -1,7 +1,7 @@
 a = Math.floor(Math.random() * 1000)
 b = Math.floor(Math.random() * 1000)
 
-var makeInt = parseInt(a)
+var makeInt = parseInt(0)
 function add(a, b) {
   return a += b;
 }
@@ -21,6 +21,6 @@ function inc(n){
 function dec(n){
   return --n
 }
-function makeInt(n,10){
+function makeInt(n){
   return parseInt(n)
 }
